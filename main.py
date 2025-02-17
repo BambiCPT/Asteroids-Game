@@ -4,7 +4,7 @@ from player import Player
 from asteroid import Asteroid
 from asteroidfield import AsteroidField
 from shot import Shot
-
+from game_utility import restart
 
 def main():
     pygame.init()
@@ -37,6 +37,9 @@ def main():
              if event.type == pygame.QUIT:
                  print(f"{score}")
                  return
+             elif event.type == pygame.KEYDOWN:
+                 if event.key == pygame.K_r:
+                     asteroid_field, player, score = restart(updatable, drawable, asteroids, shots, player, asteroid_field, score)
          
          screen.blit(background_image, (0, 0))
          updatable.update(dt)
