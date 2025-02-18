@@ -31,3 +31,7 @@ pip install -r requirements.txt
 ### 3️⃣ Run the game:
 python3 main.py
 </details>
+
+## 📸 Demo (Optional)
+![Animation](https://github.com/user-attachments/assets/0d53c232-f7ab-4337-8fca-93e6e79526d4)
+
