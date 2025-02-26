@@ -1,4 +1,4 @@
-# Asteroids
+# ☄️Asteroids
 A classic Asteroids game clone built using Python and Pygame as a course project.
 
 ## 🚀Features
