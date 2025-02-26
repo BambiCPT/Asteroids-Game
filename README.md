@@ -22,14 +22,14 @@ A classic Asteroids game clone built using Python and Pygame as a course project
 <summary>To play this Asteroids game, follow these steps:</summary>
 
 ### 1️⃣ Clone the repository:
-git clone https://github.com/BambiCPT/Asteroids-Game.git\
-cd Asteroids-Game
+`git clone https://github.com/BambiCPT/Asteroids-Game.git`\
+`cd Asteroids-Game`
 
 ### 2️⃣ Install dependencies:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ### 3️⃣ Run the game:
-python3 main.py
+`python3 main.py`
 </details>
 
 ## 📸 Demo (Optional)
